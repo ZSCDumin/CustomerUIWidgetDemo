@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.edu.zscdm.alertdialogdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_alertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="对话框按钮" />
+
+    <Button
+        android:id="@+id/btn_progressDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进度条对话框按钮" />
+</LinearLayout>
